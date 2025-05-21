@@ -20,6 +20,13 @@ public class BrowserLaunch {
 		driver.navigate().back();
 		driver.navigate().forward();
 		driver.navigate().refresh();
+		
+		String s;
+		s=driver.getTitle();
+		System.out.println("Current Page Title is :"+s);
+		
+		String s1=driver.getCurrentUrl();
+		System.out.println("Current Page URL Is :"+s1);
 	
 		
 	}
