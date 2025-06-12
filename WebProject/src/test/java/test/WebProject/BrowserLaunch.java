@@ -28,7 +28,7 @@ public class BrowserLaunch {
 		String s1=driver.getCurrentUrl();
 		System.out.println("Current Page URL Is :"+s1);
 		
-		driver.close();
+		    driver.close();
 	
 		
 	}
